@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #FFF0F5;
+}
+
+.step {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.animal-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+    background-color: #ffb7ce;
+    border-radius: 20px;
+    height: 350px;
+    padding: 30px;
+    width: 100%;
+}
+
+.card-shadow{
+    border-radius: 20px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #d5b6eb;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+:hover .btn{
+    transition: ease-in-out;
+    background-color: #b981e1;
+}
+
+
+#corAnimal{
+    width: 100%;
+}
+
+
+.despedida{
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #e36a9a;
+}
